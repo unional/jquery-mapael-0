@@ -9,10 +9,11 @@
  * Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php).
  *
  */
+
+const jQuery = require('jquery')
+
 (function($) {
-
   "use strict";
-
   $.fn.mapael = function(options) {
       options = $.extend(true, {}, $.fn.mapael.defaultOptions, options);
 

@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/unional/jquery-mapael-0/issues"
   },
-  "homepage": "https://github.com/unional/jquery-mapael-0#readme"
+  "homepage": "https://github.com/unional/jquery-mapael-0#readme",
+  "peerDependencies": {
+    "jquery": ">1"
+  },
+  "devDependencies": {
+    "jquery": "^3.5.1"
+  }
 }
