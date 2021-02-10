@@ -1,0 +1,20 @@
+{
+  "name": "jquery-mapael-0",
+  "version": "0.7.0",
+  "description": "jquery-mapael 0.x distribution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unional/jquery-mapael-0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unional/jquery-mapael-0/issues"
+  },
+  "homepage": "https://github.com/unional/jquery-mapael-0#readme"
+}
