@@ -11,7 +11,7 @@
  */
 
 "use strict";
-const $ = require('jquery')
+var $ = require('jquery')
 
 $.fn.mapael = function (options) {
     options = $.extend(true, {}, $.fn.mapael.defaultOptions, options);
