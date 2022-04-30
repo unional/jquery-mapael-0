@@ -655,7 +655,8 @@ $.fn.mapael.setHover = function (paper, mapElem, textElem) {
 $.fn.mapael.elemHover = function (paper, mapElem, textElem) {
     mapElem.animate(mapElem.attrsHover, mapElem.attrsHover.animDuration);
     textElem && textElem.animate(textElem.attrsHover, textElem.attrsHover.animDuration);
-    // workaround for older version of Raphael
+    // newer version of raphael removed `paper.safari`
+    // adding a check to work with newer versions of raphael
     if (typeof paper.safari === "function") { 
         paper.safari();
     }
@@ -670,7 +671,8 @@ $.fn.mapael.elemHover = function (paper, mapElem, textElem) {
 $.fn.mapael.elemOut = function (paper, mapElem, textElem) {
     mapElem.animate(mapElem.originalAttrs, mapElem.attrsHover.animDuration);
     textElem && textElem.animate(textElem.originalAttrs, textElem.attrsHover.animDuration);
-    // workaround for older version of Raphael
+    // newer version of raphael removed `paper.safari`
+    // adding a check to work with newer versions of raphael
     if (typeof paper.safari === "function") { 
         paper.safari();
     }
