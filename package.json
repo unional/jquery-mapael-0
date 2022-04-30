@@ -21,6 +21,6 @@
     "jquery": ">1"
   },
   "devDependencies": {
-    "jquery": "^3.5.1"
+    "jquery": "3.5.1"
   }
 }
